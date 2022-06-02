@@ -4,10 +4,80 @@ body{
     font-family: 'Raleway', sans-serif;
     font-family: 'Roboto', sans-serif;
     color: #212121;
+    background: #FFFFFF;
 }
 .wraper{
     width: 1170px;
     margin: 0 auto;
     height: 100%;
     position: relative;
+}
+span{
+    color: #2196F3;
+}
+.logo{
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    text-decoration: none;
+    color: #000000
+}
+header{
+    margin-top: 24px;
+    margin-bottom: 25px;
+    left: 215px;
+}
+.menu{
+    list-style-type: none;
+    
+    margin: 32px;
+    padding: 32px;
+    left: 93px;
+    color: #212121;
+    cursor: pointer;
+}
+.menu-link{
+    list-style-type: none;
+    
+    margin: 32px;
+    padding: 32px;
+    right: 215px;
+    color: #757575;
+    cursor: pointer;
+    }
+.order {
+    margin-top: 200px;
+    margin-bottom: 280px;
+    display: flex;
+    flex-direction: column;
+}
+#title-order{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.title-features{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+.text-features{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+.features{
+    background: #FFFFFF;
+    padding: 215px 215px;
+    
+    
 }

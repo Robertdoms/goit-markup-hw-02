@@ -1,83 +1,67 @@
 html,
-body{
-    height: 100%;
-    font-family: 'Raleway', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    color: #212121;
-    background: #FFFFFF;
+.root {
+  --primary-text-color: #212121;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --text-color: #757575;
+  --hero-color: #ffffff;
 }
-.wraper{
-    width: 1170px;
-    margin: 0 auto;
-    height: 100%;
-    position: relative;
+.body {
+  color: var(--primary-text-color);
+  background-color: #ffffff;
+  height: 100%;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
-span{
-    color: #2196F3;
+.logo {
+  color: var(--title-text-color);
 }
-.logo{
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 31px;
-    text-decoration: none;
-    color: #000000
+span {
+  color: var(--accent-color);
 }
-header{
-    margin-top: 24px;
-    margin-bottom: 25px;
-    left: 215px;
+.list {
+  list-style: none;
 }
-.menu{
-    list-style-type: none;
-    
-    margin: 32px;
-    padding: 32px;
-    left: 93px;
-    color: #212121;
-    cursor: pointer;
+.menu-nav .link:hover .menu-nav .link:focus {
+  color: var(--accent-color);
 }
-.menu-link{
-    list-style-type: none;
-    
-    margin: 32px;
-    padding: 32px;
-    right: 215px;
-    color: #757575;
-    cursor: pointer;
-    }
-.order {
-    margin-top: 200px;
-    margin-bottom: 280px;
-    display: flex;
-    flex-direction: column;
+.menu-link .link:hover .menu-link .link:focus {
+  color: var(--accent-color);
 }
-#title-order{
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 60px;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: #FFFFFF;
+.menu-nav .list .link .current {
+  color: var(--accent-color);
 }
-.title-features{
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    color: #212121;
+.hero-title {
+  color: var(--hero-color);
 }
-.text-features{
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    letter-spacing: 0.03em;
-    color: #757575;
+.section-title {
+  color: var(--title-text-color);
 }
-.features{
-    background: #FFFFFF;
-    padding: 215px 215px;
-    
-    
+.feature-list .title {
+  color: var(--title-text-color);
+}
+.feature-list .text {
+  color: var(--text-color);
+}
+.team-list .title {
+  color: var(--title-text-color);
+}
+.team-list .text {
+  color: var(--text-color);
+}
+.work-list .title {
+  color: var(--title-text-color);
+}
+.work-list .text {
+  color: var(--text-color);
+}
+.button {
+  color: var(--primary-text-color);
+  background-color: var(--accent-color);
+  font-size: 16px;
+  padding: 10px 32px 10px 32px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }

@@ -22,10 +22,10 @@ span {
 .list {
   list-style: none;
 }
-.menu-nav .link:hover .menu-nav .link:focus {
+.menu-nav .link:focus {
   color: var(--accent-color);
 }
-.menu-link .link:hover .menu-link .link:focus {
+.menu-link .link:hover {
   color: var(--accent-color);
 }
 .menu-nav .list .link .current {
@@ -64,4 +64,13 @@ span {
   display: flex;
   align-items: center;
   text-align: center;
+}
+.filter-list .filter:hover {
+  color: var(--accent-color);
+}
+.filter-list .filter:focus {
+  color: var(--accent-color);
+}
+.filter-list .filter {
+  color: var(--text-color);
 }

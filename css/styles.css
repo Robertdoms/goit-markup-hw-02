@@ -83,6 +83,7 @@ span {
   display: flex;
   align-items: center;
   text-align: center;
+  cursor: pointer;
 }
 .filter-list .filter:hover {
   color: var(--accent-color);
@@ -95,6 +96,7 @@ span {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  cursor: pointer;
 }
 .logo {
   font-family: "Raleway";

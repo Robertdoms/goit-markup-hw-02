@@ -33,27 +33,46 @@ span {
 }
 .hero-title {
   color: var(--hero-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 0.73;
+  text-align: center;
 }
 .section-title {
   color: var(--title-text-color);
 }
 .feature-list .title {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
 }
 .feature-list .text {
   color: var(--text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 0.84;
 }
 .team-list .title {
   color: var(--title-text-color);
 }
 .team-list .text {
   color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.84;
 }
 .work-list .title {
   color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
 }
 .work-list .text {
   color: var(--text-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 0.53;
 }
 .button {
   color: var(--primary-text-color);
@@ -73,4 +92,35 @@ span {
 }
 .filter-list .filter {
   color: var(--text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+.logo {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+.menu-nav .list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.87;
+}
+.menu-link .list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 0.87;
+}
+.heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 0.86;
+  text-align: center;
+}
+.address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 0.58;
 }

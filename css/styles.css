@@ -150,15 +150,10 @@ span {
   line-height: 1.19;
   color: #ffffff;
 }
-.menu-nav .list {
+.menu-nav .list .menu-link .list {
   font-weight: 500;
   font-size: 14px;
-  line-height: 0.87;
-}
-.menu-link .list {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 0.87;
+  line-height: 1.14;
 }
 .heading {
   font-weight: 700;

@@ -40,7 +40,7 @@ span {
   color: var(--hero-color);
   font-weight: 900;
   font-size: 44px;
-  line-height: 0.73;
+  line-height: 1.36;
   text-align: center;
   background: #2f303a;
 }
@@ -52,29 +52,40 @@ span {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .feature-list .text {
   color: var(--text-color);
   font-weight: 500;
   font-size: 16px;
-  line-height: 0.84;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
-.team-list .title {
+.team {
+  background: #f5f4fa;
+}
+.team .title {
   color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
-.team-list .text {
+.team .text {
   color: var(--text-color);
   font-weight: 400;
   font-size: 16px;
-  line-height: 0.84;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
-.work-list .title {
+.filter-list .title {
   color: var(--title-text-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
 }
-.work-list .text {
+.filter-list .text {
   color: var(--text-color);
   font-weight: 400;
   font-size: 16px;
@@ -97,17 +108,32 @@ span {
   cursor: pointer;
 }
 .filter-list .filter:hover {
-  color: var(--accent-color);
+  font-family: "Roboto";
+  color: var(--hero-color);
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 .filter-list .filter:focus {
-  color: var(--accent-color);
+  font-family: "Roboto";
+  color: var(--hero-color);
+  background: #2196f3;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 .filter-list .filter {
+  font-family: "Roboto";
   color: var(--text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   cursor: pointer;
+  background: #f5f4fa;
+  border-radius: 4px;
+  color: #212121;
+  border: none;
 }
 .logo {
   font-family: "Raleway";
@@ -115,6 +141,14 @@ span {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+}
+.logo-2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: #ffffff;
 }
 .menu-nav .list {
   font-weight: 500;
@@ -129,15 +163,53 @@ span {
 .heading {
   font-weight: 700;
   font-size: 36px;
-  line-height: 0.86;
+  line-height: 1.16;
   text-align: center;
+  letter-spacing: 0.03em;
+}
+address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+footer {
+  background: #2f303a;
+}
+a {
+  text-decoration: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+li {
+  list-style-type: none;
+}
+ul {
+  margin-left: 0;
+  padding-left: 0;
 }
 .address {
   font-weight: 400;
   font-size: 14px;
-  line-height: 0.58;
-  text-decoration: none;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
-a {
-  text-decoration: none;
+.maps {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--hero-color);
 }
